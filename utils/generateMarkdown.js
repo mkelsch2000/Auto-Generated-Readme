@@ -26,10 +26,10 @@
 module.exports = readMeTemplate => {
   
   return `
-  #${data.title}
+  # ${readMeTemplate.title}
 
   ## Description
-  ${data.description}
+  ${readMeTemplate.description}
 
   ## Table of Contents:
   - [Installation](#installation)
@@ -40,23 +40,23 @@ module.exports = readMeTemplate => {
   - [Questions](#questions)
 
   ## Installation
-  ${data.install}
+  ${readMeTemplate.install}
 
   ## Usage
-  ${generateUsageInfo(data)}
+  ${readMeTemplate.usage}
 
   ## License
-  This project is licensed under: ${data.license}
+  This project is licensed under: ${readMeTemplate.license}
 
   ## Contributing
-  ${generateContributionInfo(data)}
+  ${readMeTemplate.contribution}
 
   ## Tests
-  ${data.test}
+  ${readMeTemplate.test}
 
   ## Questions
-  My GitHub: ${data.username}
+  My GitHub: ${readMeTemplate.username}
 
-  Feel free to contact me at: ${data.email}
+  Feel free to contact me at: ${readMeTemplate.email}
   `;
 };
