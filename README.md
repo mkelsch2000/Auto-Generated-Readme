@@ -1,8 +1,8 @@
 
-  #Titties
+  # My Title
 
   ## Description
-  Descties
+  My Description
 
   ## Table of Contents:
   - [Installation](#installation)
@@ -13,22 +13,23 @@
   - [Questions](#questions)
 
   ## Installation
-  Stalliess
+  Install the Application
 
-  ## Usage
-  undefined
+   
 
   ## License
   This project is licensed under: GNU Affero General Public License v3.0
 
+  
   ## Contributing
-  Conties
+  Contribute or don't
+  
 
   ## Tests
-  Testies
+  Test it with ease
 
   ## Questions
-  My GitHub: Useruies
+  My GitHub: My Username
 
-  Feel free to contact me at: undefined
+  
   

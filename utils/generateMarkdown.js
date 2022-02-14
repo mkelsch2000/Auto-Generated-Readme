@@ -1,27 +1,34 @@
-// // TODO: Create a function that returns a license badge based on which license is passed in
-// // If there is no license, return an empty string
-// function renderLicenseBadge(license) {
-//   console.log(data.license);
-// }
+const generateUsage = usageText => {
+  if (!usageText) {
+    return "";
+  }
 
-// // TODO: Create a function that returns the license link
-// // If there is no license, return an empty string
-// function renderLicenseLink(license) {
-//   console.log(data.license);
-// }
+  return `
+  ## Usage
+  ${usageText}
+  `
+}
 
-// // TODO: Create a function that returns the license section of README
-// // If there is no license, return an empty string
-// function renderLicenseSection(license) {
-//   console.log(data.license);
-// }
+const generateContribution = contributionText => {
+  if (!contributionText) {
+    return "";
+  }
 
-// // TODO: Create a function to generate markdown for README
-// function generateMarkdown(data) {
-//   return `# ${data.title}
+  return `
+  ## Contributing
+  ${contributionText}
+  `
+}
 
-// `;
-// }
+const generateEmail = emailText => {
+  if (!emailText) {
+    return "";
+  } else {
+    return `
+    Feel free to contact me at: ${emailText}
+    `
+  }
+}
 
 module.exports = readMeTemplate => {
   
@@ -42,14 +49,12 @@ module.exports = readMeTemplate => {
   ## Installation
   ${readMeTemplate.install}
 
-  ## Usage
-  ${readMeTemplate.usage}
+   ${generateUsage(readMeTemplate.usage)}
 
   ## License
   This project is licensed under: ${readMeTemplate.license}
 
-  ## Contributing
-  ${readMeTemplate.contribution}
+  ${generateContribution(readMeTemplate.contribution)}
 
   ## Tests
   ${readMeTemplate.test}
@@ -57,6 +62,6 @@ module.exports = readMeTemplate => {
   ## Questions
   My GitHub: ${readMeTemplate.username}
 
-  Feel free to contact me at: ${readMeTemplate.email}
+  ${generateEmail(readMeTemplate.email)}
   `;
 };
