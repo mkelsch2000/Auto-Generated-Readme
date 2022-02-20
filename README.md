@@ -1,8 +1,10 @@
 
-  # My Title
+  # my title
+
+  
 
   ## Description
-  My Description
+  my desc
 
   ## Table of Contents:
   - [Installation](#installation)
@@ -13,7 +15,7 @@
   - [Questions](#questions)
 
   ## Installation
-  Install the Application
+  install it
 
    
 
@@ -21,15 +23,12 @@
   This project is licensed under: GNU Affero General Public License v3.0
 
   
-  ## Contributing
-  Contribute or don't
-  
 
   ## Tests
-  Test it with ease
+  asdf
 
   ## Questions
-  My GitHub: My Username
+  My GitHub: asdf
 
   
   

@@ -30,10 +30,23 @@ const generateEmail = emailText => {
   }
 }
 
+const generateBadge = licenseName => {
+  switch(licenseName[0]) {
+    case "GNU Affero General Public License v3.0":
+      return "[![License](https://img.shields.io/badge/License-AGPL-3.0-blue.svg)](https://opensource.org/licenses/AGPL-3.0)";
+    case "MIT License":
+      return "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)";
+    default:
+      return "";
+  }
+}
+
 module.exports = readMeTemplate => {
   
   return `
   # ${readMeTemplate.title}
+
+  ${generateBadge(readMeTemplate.license)}
 
   ## Description
   ${readMeTemplate.description}
