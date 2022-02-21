@@ -1,34 +1,11 @@
+# Auto-Generate-Readme
 
-  # Vultron's awesome project
+## Project Description:
+For this project I was tasked with taking some starter files, and filling them with code that would allow me to answer a series of questions through the terminal, and have the program generate a readme.md using my input.
 
-  [![License](https://img.shields.io/badge/License-MPL_2.0-orange.svg)](https://opensource.org/licenses/MPL_2.0)
+## Project completion:
+In order to achieve this I utilized the npm inquirer package, to allow the user to interact with the terminal. I implemented multiple files, all either requiring, or exporting data, in order to better organize the code in a readable manner. Followed by multiple functions to either initialize the program, or utilize the input data using template literals to generate the readme.md
 
-  ## Description
-  IT's all about me, Vultron.
+## Screencastify Link:
 
-  ## Table of Contents:
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
-
-  ## Installation
-  Install it and play as me, Vultron
-
-   
-
-  ## License
-  This project is licensed under: Mozilla Public License 2.0
-
-  
-
-  ## Tests
-  Test out my new gun!
-
-  ## Questions
-  My GitHub: VultronisAWESOME
-
-  
   

@@ -1,3 +1,4 @@
+// function for generating usage area content
 const generateUsage = usageText => {
   if (!usageText) {
     return "";
@@ -9,6 +10,7 @@ const generateUsage = usageText => {
   `
 }
 
+// function to generate the Contribution area
 const generateContribution = contributionText => {
   if (!contributionText) {
     return "";
@@ -20,6 +22,7 @@ const generateContribution = contributionText => {
   `
 }
 
+// function to generate the email content
 const generateEmail = emailText => {
   if (!emailText) {
     return "";
@@ -30,6 +33,7 @@ const generateEmail = emailText => {
   }
 }
 
+// function to generate the correct badge for the chosen license.
 const generateBadge = licenseName => {
   switch(licenseName[0]) {
     case "GNU Affero General Public License v3.0":
@@ -53,6 +57,7 @@ const generateBadge = licenseName => {
   }
 }
 
+// export readme.md template to write file function in index.js
 module.exports = readMeTemplate => {
   
   return `
