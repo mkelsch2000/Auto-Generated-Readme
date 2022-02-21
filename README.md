@@ -1,10 +1,10 @@
 
-  # my title
+  # Vultron's awesome project
 
-  
+  [![License](https://img.shields.io/badge/License-MPL_2.0-orange.svg)](https://opensource.org/licenses/MPL_2.0)
 
   ## Description
-  my desc
+  IT's all about me, Vultron.
 
   ## Table of Contents:
   - [Installation](#installation)
@@ -15,20 +15,20 @@
   - [Questions](#questions)
 
   ## Installation
-  install it
+  Install it and play as me, Vultron
 
    
 
   ## License
-  This project is licensed under: GNU Affero General Public License v3.0
+  This project is licensed under: Mozilla Public License 2.0
 
   
 
   ## Tests
-  asdf
+  Test out my new gun!
 
   ## Questions
-  My GitHub: asdf
+  My GitHub: VultronisAWESOME
 
   
   
